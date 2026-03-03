@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "main": "expo-router/entry",
-
   "scripts": {
     "start": "bunx rork start -p gu0o3mdgy3n4189ubb87n --tunnel",
     "start-web": "bunx rork start -p gu0o3mdgy3n4189ubb87n --web --tunnel",
@@ -11,16 +10,15 @@
     "lint": "expo lint",
     "eas-build-pre-install": "npm install --legacy-peer-deps"
   },
-
   "dependencies": {
+    "@rork-ai/toolkit-sdk": "^0.2.51",
     "expo": "~54.0.27",
     "expo-router": "~6.0.17",
+    "expo-web-browser": "~15.0.10",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "react-native": "0.81.5",
-    "@rork-ai/toolkit-sdk": "^0.2.51"
+    "react-native": "0.81.5"
   },
-
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "typescript": "~5.9.2"
